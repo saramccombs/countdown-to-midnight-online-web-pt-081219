@@ -8,6 +8,7 @@ def countdown (integer_start_number)
   
   while integer_start_number < 0 
     puts "#{integer_start_number} SECOND(S)!"
+    integer_start_number -= 1 
   end
   
   phrase
