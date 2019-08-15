@@ -6,7 +6,7 @@
 def countdown (integer_start_number)
   phrase = "HAPPY NEW YEAR!"
   
-  while integer_start_number < 0 
+  while integer_start_number < 0 do 
     puts "#{integer_start_number} SECOND(S)!"
     integer_start_number -= 1 
   end
