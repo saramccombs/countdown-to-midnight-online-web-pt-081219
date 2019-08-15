@@ -14,6 +14,8 @@ def countdown (integer_start_number)
   phrase
 end
 
+# copy of the method above that sleeps for 60 seconds between iterations
+
 def countdown_with_sleep (integer_start_number)
   phrase = "HAPPY NEW YEAR!"
   
