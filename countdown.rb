@@ -6,7 +6,7 @@
 def countdown (start_number)
   phrase = "HAPPY NEW YEAR!"
   
-  while start_number < 0 
+  while start_number > 0 
     puts "#{start_number} SECOND(S)!"
     start_number -= 1 
   end
@@ -19,7 +19,7 @@ end
 def countdown_with_sleep (start_number)
   phrase = "HAPPY NEW YEAR!"
   
-  while start_number < 0 
+  while start_number > 0 
     puts "#{start_number} SECOND(S)!"
     sleep 60
     start_number -= 1 
