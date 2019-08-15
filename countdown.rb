@@ -20,6 +20,7 @@ def countdown_with_sleep (integer_start_number)
   while integer_start_number < 0 
     puts "#{integer_start_number} SECOND(S)!"
     sleep 60
+    integer_start_number -= 1 
   end
   
   phrase
