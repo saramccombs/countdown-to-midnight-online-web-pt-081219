@@ -11,7 +11,7 @@ def countdown (integer_start_number)
     integer_start_number -= 1 
   end
   
-  return phrase
+  phrase
 end
 
 # copy of the method above that sleeps for 60 seconds between iterations
