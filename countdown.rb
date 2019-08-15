@@ -12,3 +12,14 @@ def countdown (integer_start_number)
   
   phrase
 end
+
+def countdown_with_sleep (integer_start_number)
+  phrase = "HAPPY NEW YEAR!"
+  
+  while integer_start_number < 0 
+    puts "#{integer_start_number} SECOND(S)!"
+    sleep 60
+  end
+  
+  phrase
+end
